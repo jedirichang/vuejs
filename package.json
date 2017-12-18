@@ -1,0 +1,35 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "^5.5.1",
+    "http": "^0.0.0",
+    "moment": "^2.19.3",
+    "request": "^2.83.0",
+    "socketcluster-client": "^9.0.0"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "lint": "samples lint",
+    "pretest": "npm run lint",
+    "system-test": "samples test app",
+    "test": "npm run system-test",
+    "e2e-test": "samples test deploy"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "cloud-repo-tools": {
+    "test": {
+      "app": {
+        "msg": "Hello, world!"
+      }
+    },
+    "requiresKeyFile": true,
+    "requiresProjectId": true
+  }
+}

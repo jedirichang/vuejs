@@ -1,0 +1,8 @@
+{
+    "apiKey": "AIzaSyCoLaKz1fZ_DqSAyS0FLOq0N_ujm7IkkT4",
+    "authDomain": "volume-analytics.firebaseapp.com",
+    "databaseURL": "https://volume-analytics.firebaseio.com",
+    "projectId": "volume-analytics",
+    "storageBucket": "",
+    "messagingSenderId": "257701445239"
+}
